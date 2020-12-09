@@ -1,0 +1,124 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<header>
+      
+    <img src="images/logo.jpeg" alt="logo">
+    
+    
+    
+    
+    <div class="head-tag">
+      <h3>Welcome! To-Do List Web Application</h3>  
+     </div>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="main.css">
+ 
+
+    </head>
+    <body>
+    
+
+<style>   
+body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  
+}  
+input[type=button] {   
+       background-color: dodgerblue;   
+       width: 100%;  
+        color: white;   
+        padding: 10px;   
+        margin: 5px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+form {   
+        
+        padding-bottom: 50px;
+        padding-right: 500px;
+        padding-left: 500px;
+        padding-top: 10px;
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 10px 0;  
+        padding: 10px 20px;   
+        display: inline-block;   
+        box-sizing: border-box;   
+    }  
+    input[type=button]:hover {   
+        opacity: 0.7;   
+    }   
+   
+     
+ .container {   
+        padding: 15px;   
+        /* background-color: orange; */
+        padding-bottom: 100px;  
+        padding-right: 50px;
+        padding-left: 100px;
+    }   
+</style>   
+</head>    
+<body background="images/TDL BG.jpeg">    
+    <!-- <center><h1> Login Form </h1> 
+    </center>
+    <form action="main.html" class="login" id="form" method="GET">
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" id="username" value="" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" id="password" value="" required>  
+             <br>
+            <button type="submit" onclick="validate()">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form> 
+      
+    <script type="text/javascript">
+        function validate()
+        {
+        
+        var user=document.getElementById('username').value;
+        var pass=document.getElementById('password').value;
+        
+        if((username =="admin")&&(password =="admin"))
+        { 
+            window.alert("logging");
+            window.location.href="main.html";
+        }
+        else
+            window.alert("Username or Password Incorrect");
+            window.location.href="index.html";
+        }
+    </script> -->
+
+
+    
+<!-- Include JS File Here -->
+
+
+<script src="form.js"></script> 
+<center><h1>User Login</h1></center>
+<br>
+<div class="container">
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+<br>
+<br>
+<input type="checkbox" checked="checked"> Remember me   
+            Forgot <a href="#"> password? </a>   
+</form>
+</div>
+
+
+</body>     
+</html>  
